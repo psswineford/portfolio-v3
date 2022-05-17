@@ -1627,24 +1627,20 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+		/* .image img {
+			display: block;
+			width: 100%;
+		} */
+
+		.image.fit img{
 			display: block;
 			width: 100%;
 		}
 
-		.image.fit {
+		.image.featured img{
 			display: block;
 			width: 100%;
-		}
-
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
-		}
-
-		image.chatapp {
-			display: block;
+			height: 15rem;
 			margin: 0 0 2em 0;
 		}
 
@@ -1924,6 +1920,7 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			height: 100%;
 		}
 
 			.box.style1 h3 {
@@ -1940,6 +1937,9 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+		}
+		.box.style2 {
+			height: 100%;
 		}
 
 /* Icons */
@@ -2368,7 +2368,8 @@ input, select, textarea {
 					left: 20px;
 					top: 20px;
 					margin: -50px 0 50px -40px;
-					width: auto;
+					
+					
 				}
 
 				.box.style1 {
@@ -2448,3 +2449,18 @@ input, select, textarea {
 					}
 
 	}
+/* 
+	.grid__footer-left {
+		float: left;
+		padding: 10px;
+	  }
+	  
+	  .grid__footer-right {
+		float: right;
+		padding: 10px;
+	  } */
+
+	  .header-right {
+		  float: right;
+		  padding: 10px;
+	  }

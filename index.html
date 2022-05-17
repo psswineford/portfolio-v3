@@ -19,10 +19,11 @@
 	<nav id="nav">
 		<ul class="container">
 			<li><a href="#top">Top</a></li>
-			<li><a href="#about">About Me</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#about">About Me</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
+		
 	</nav>
 
 	<!-- Home -->
@@ -30,16 +31,86 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4 col-5-large col-12-medium">
-					<span class="image fit"><img src="images/profile pic.png" alt="" /></span>
+					<span class="image fit"><img src="images/profile 2.jpeg" alt="" /></span>
 				</div>
 				<div class="col-8 col-7-large col-12-medium">
 					<header>
 						<h1>Hi. I'm <strong>Shawn Swineford</strong>.</h1>
 					</header>
-					<p>I am a web developer from sunny Southern California.  I have a passion for programming and want to develop awesome websites and applications.</p>
-					<a href="#about" class="button large scrolly">Learn all about me</a>
+					<p> I am a web developer from Southern California. I have a passion for programming and want to develop awesome websites and applications.</p>
+					<a href="#portfolio" class="button large scrolly">Check out some of my Projects</a>
 				</div>
 			</div>
+		</div>
+	</article>
+
+	<!-- Portfolio -->
+	<article id="portfolio" class="wrapper style3">
+		<div class="container">
+			<header>
+				<h2>Here are some projects I made recently.</h2>
+			</header>
+			<div class="row">
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<a href="#" class="image featured"><img src="images/pokedex.jpeg" alt="" /></a>
+						<h3><a href="#">Pokedex</a></h3>
+						<p>This app fetches data from the Pokemon API to generate a list of Pokemon buttons. When a
+							button
+							is clicked it will open a card displaying information about the Pokemon.</p>
+						<p>This app utilizes HTML, CSS, Javascript, Bootstrap</p>
+						<p>
+							<a href="https://psswineford.github.io/Pokedex-js-app/" target="_blank"
+								class="grid__footer-left">See the project in action</a>
+							<br>
+							<a href="https://github.com/psswineford/Pokedex-js-app" target="_blank"
+								class="grid__footer-right">See the Project on GitHub</a>
+						</p>
+					</article>
+				</div>
+				
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<a href="#" class="image featured"><img src="images/myflix-react.jpeg" alt="" /></a>
+						<h3><a href="#">myFlix!</a></h3>
+						<p>This isa client application that interfaces with a backend database to show you information about your favorite movies.</p>
+						<p>This app utilizes Javascript, React, Bootstrap</p>
+						<p>To access the site below for a demo login with username: shawntest3 password: test3</p>
+						<p>
+							<a href="https://psswinefords-myflixclient.netlify.app/" target="_blank"
+								class="grid__footer-left">See project in action</a>
+							<br>
+							<a href="https://github.com/psswineford/myFlix-client" target="_blank"
+								class="grid__footer-right">See the Project on GitHub</a>
+						</p>
+					</article>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<a href="#" class="image featured"><img src="images/meetapp.jpeg" alt="" /></a>
+						<h3><a href="#">Meet App</a></h3>
+						<p>This is a serverless web app that fetches and displays data on web developer events world
+							wide
+							utilizing the Google API Calendar, serverless, and AWS. The front end client was built with
+							React.</p>
+						<p>This app utilizes Javascript, React, Serverless, AWS, OAuth, Recharts</p>
+						<p>
+							<a href="https://psswineford.github.io/meet-app/" target="_blank"
+								class="grid__footer-left">See
+								project in action</a>
+							<br>
+							<a href="https://github.com/psswineford/meet-app" target="_blank"
+								class="grid__footer-right">See
+								the Project on GitHub</a>
+						</p>
+					</article>
+				</div>
+				
+				
+			</div>
+			<footer>
+				<a href="#about" class="button large scrolly">Find out more about me</a>
+			</footer>
 		</div>
 	</article>
 
@@ -76,122 +147,7 @@
 				</div>
 			</div>
 			<footer>
-				<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-			</footer>
-		</div>
-	</article>
-
-	<!-- Portfolio -->
-	<article id="portfolio" class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2>Here’s some stuff I made recently.</h2>
-			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/pokedex.jpeg" alt="" /></a>
-						<h3><a href="#">Pokedex</a></h3>
-						<p>This app fetches data from the Pokemon API to generate a list of Pokemon buttons. When a
-							button
-							is clicked it will open a card displaying information about the Pokemon.</p>
-						<p>This app utilizes HTML, CSS, Javascript, Bootstrap</p>
-						<p>
-							<a href="https://psswineford.github.io/Pokedex-js-app/" target="_blank"
-								class="grid__footer-left">See the project in action</a>
-							<br>
-							<a href="https://github.com/psswineford/Pokedex-js-app" target="_blank"
-								class="grid__footer-right">See the Project on GitHub</a>
-						</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/api.jpeg" alt="" /></a>
-						<h3><a href="#">Movie API</a></h3>
-						<p>This is the server side code for my two MyFlix Client apps. This contains API endpoints that
-							will interface with the back end database of Users, Movies, Genres, and Directors.</p>
-						<p>This app utilizes Javascript, Node.js, Express, MongoDB</p>
-						<a href="https://github.com/psswineford/Movie-API" target="_blank"
-							class="grid__footer-right">See the Project on GitHub</a>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/myflix-react.jpeg" alt="" /></a>
-						<h3><a href="#">myFlix - React Client</a></h3>
-						<p>This is the React version of the client App that interfaces with the Movie API to display and
-							edit the information on the back end database.</p>
-						<p>This app utilizes Javascript, React, Bootstrap</p>
-						<p>
-							<a href="https://psswinefords-myflixclient.netlify.app/" target="_blank"
-								class="grid__footer-left">See project in action</a>
-							<br>
-							<a href="https://github.com/psswineford/myFlix-client" target="_blank"
-								class="grid__footer-right">See the Project on GitHub</a>
-						</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/meetapp.jpeg" alt="" /></a>
-						<h3><a href="#">Meet App</a></h3>
-						<p>This is a serverless web app that fetches and displays data on web developer events world
-							wide
-							utilizing the Google API Calendar, serverless, and AWS. The front end client was built with
-							React.</p>
-						<p>This app utilizes Javascript, React, Serverless, AWS, OAuth, Recharts</p>
-						<p>
-							<a href="https://psswineford.github.io/meet-app/" target="_blank"
-								class="grid__footer-left">See
-								project in action</a>
-							<br>
-							<a href="https://github.com/psswineford/meet-app" target="_blank"
-								class="grid__footer-right">See
-								the Project on GitHub</a>
-						</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image featured"><img src="images/angularapp.jpeg" alt="" /></a>
-						<h3><a href="#">myFlix Angular Client</a></h3>
-						<p>    This is the Angular version of the client App that interfaces with the Movie API to display and
-							edit the information on the back end database.</p>
-							<p>This app utilizes HTML, Typescript, Angular, Angular Materials</p>
-							<p>
-								<a href="https://psswineford.github.io/myFlix-Angular-client/welcome" target="_blank"
-									class="grid__footer-left">See project in action</a>
-		
-								<a href="https://github.com/psswineford/myFlix-Angular-client" target="_blank"
-									class="grid__footer-right">See the Project on GitHub</a>
-							</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="#" class="image chatapp"><img src="images/chatapp.png" alt="" /></a>
-						<h3><a href="#">Chat App</a></h3>
-						<p> This is a react native communications app that allows users to chat in real time. They can
-							also
-							send pictures from their mobile devices, real time photographs, and location data. The back
-							end
-							uses Google Firestore database. Messages are stored and displayed when the users are
-							offline.</p>
-						<p>This app utilizes React Native, Expo, Firestore/Firebase, Gifted Chat</p>
-						<p>
-							<a href="https://psswineford.github.io/Pokedex-js-app/" target="_blank"
-								class="grid__footer-left">See project in action</a>
-
-							<a href="https://github.com/psswineford/chat-app" target="_blank"
-								class="grid__footer-right">See
-								the Project on GitHub</a>
-						</p>
-					</article>
-				</div>
-			</div>
-			<footer>
-				<a href="#contact" class="button large scrolly">Get in touch with me</a>
+				<a href="#contact" class="button large scrolly">See my contact info</a>
 			</footer>
 		</div>
 	</article>
